@@ -1,19 +1,19 @@
-/* fonts-here */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/*===== VARIABLES CSS =====*/
+
 :root{
-    /*===== Colors =====*/
+    
     --theme-color: rgba(58,180,123,1);;
     --text-color: #fff;
 
   
-    /*===== Font and typography =====*/
+    
     --body-font: 'Poppins', sans-serif;
 
 
     --normal-font-size: 1em;
   
-    /*===== Font weight =====*/
+    
     --font-medium: 500;
     --font-semi-bold: 600;
     --font-bold: 700;
@@ -122,11 +122,7 @@ body{
 }
 
 
-/* input[type="text"],
-input[type="password"],
-input[type="checkbox"],
-input[type="tadio"],
-textarea{} */
+
 
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -137,13 +133,13 @@ textarea:focus{
     box-shadow: none;
 }
 
-/* default css end */
 
 
-/* css class-- */
 
 
-/* header-area */
+
+
+
 .navbar.bg-dark{
     background-color: #000000 !important;
 }
@@ -200,8 +196,7 @@ textarea:focus{
     color: var(--theme-color);
 }
 
-/* banner-bottom-area */
-.panda-nav ul li a {
+.cronk-nav ul li a {
 	display: block;
 	color: #fff;
 	font-weight: 600;
@@ -211,10 +206,10 @@ textarea:focus{
 	position: relative;
 	font-size: 14px;
 }
-.panda-nav ul li:first-child a {
+.cronk-nav ul li:first-child a {
     padding-left: 0px;
 }
-.panda-nav ul li a:after {
+.cronk-nav ul li a:after {
     position: absolute;
     right: 0;
     top: 50%;
@@ -224,13 +219,13 @@ textarea:focus{
     width: 2px;
     height: 54%;
 }
-.panda-nav ul li:last-child a:after {
+.cronk-nav ul li:last-child a:after {
     display: none;
 }
-.panda-text h6 {
+.cronk-text h6 {
     margin-bottom: 25px;
 }
-.panda-text h3 {
+.cronk-text h3 {
     font-size: 80px;
     font-style: normal;
     background: rgb(58,180,123);
@@ -240,7 +235,6 @@ textarea:focus{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .buy-btn {
 	background:linear-gradient(145deg, rgba(58,180,123,1) 25%, rgba(253,29,233,1) 75%);
 	border: none;
@@ -274,7 +268,7 @@ textarea:focus{
     width: 250%;
 }
 
-/* fair-area */
+
 .fair-title h3{
     color: rgba(58,180,123,1);
     font-style: italic;
@@ -326,12 +320,7 @@ textarea:focus{
     border-bottom: 1px solid #3b3b3b !important;
 }
 
-/* fair-area */
 
-
-
-
-/* specs area */
 .specs-content h3{
     font-weight: 800;
 }
@@ -345,7 +334,7 @@ textarea:focus{
 }
 
 
-/* welcome-area */
+
 .club-items-grid {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -376,7 +365,7 @@ textarea:focus{
 }
 
 
-/* road-map-activation-area */
+
 
 .activation-list ul li {
 	position: relative;
@@ -408,7 +397,7 @@ textarea:focus{
 	background: var(--theme-color);
 	z-index: -1;
 }
-/* commounity-area */
+
 
 
 .community-btn a.site-btn {
@@ -432,7 +421,7 @@ textarea:focus{
 
 
 
-/* footer-area */
+
 
 .center-logo-area a img {
 	max-width: 200px;
